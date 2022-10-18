@@ -9,18 +9,18 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="relative">
 
     <!-- start heder  -->
 
-    <nav class="navbar relative  bg-primary w-full py-8">
+
+    <nav class="navbar absolute bg-transparent top-0 w-full py-8 z-10 ">
         <div class="container mx-auto">
             <div class="navbar-start">
-
-                <a class="btn btn-ghost normal-case text-4xl text-base-100">Viacon</a>
+                <a class="normal-case text-4xl text-base-100">Viacon</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal text-xl p-0">
+                <ul class="menu menu-horizontal xl:text-lg 2xl:text-xl p-0">
                     <li><a href="" class="text-base-100 text-center ">Home</a></li>
                     <li><a href="" class="text-base-100 text-center">About Us</a></li>
                     <li tabindex="0">
@@ -31,7 +31,8 @@
                                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                             </svg>
                         </a>
-                        <ul class="dropdown-menu bg-primary text-base-100" aria-labelledby="menu-item-dropdown-28" role="menu">
+                        <ul class="dropdown-menu bg-primary text-base-100" aria-labelledby="menu-item-dropdown-28"
+                            role="menu">
                             <li>
                                 <a>SEO Services</a>
                             </li>
@@ -64,12 +65,12 @@
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            <path stroke-linecap="round" stroke-linejoin="round" color="#ffffff" stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-compact text-xl dropdown-content mt-3 p-2 right-0 shadow rounded-box w-52  bg-primary">
+                        class="menu menu-compact dropdown-content mt-3 p-2 right-0 shadow rounded-box w-52  bg-primary">
                         <li><a href="" class="text-base-100 text-center">Home</a></li>
                         <li><a href="" class="text-base-100 text-center">About Us</a></li>
                         <li tabindex="0">
@@ -80,7 +81,8 @@
                                     <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                                 </svg>
                             </a>
-                            <ul class="dropdown-menu relative flex left-0 bg-primary-90 " aria-labelledby="menu-item-dropdown-28" role="menu">
+                            <ul class="dropdown-menu relative flex left-0 bg-primary-90 "
+                                aria-labelledby="menu-item-dropdown-28" role="menu">
                                 <li>
                                     <a>SEO Services</a>
                                 </li>
@@ -112,28 +114,134 @@
         </div>
     </nav>
 
-    <header class="banner py-32">    
-        <div class="container mx-auto"> 
-            <div class="flex flex-col md:flex-row items-center">
+    <header class="home-page-banner relative bg-cover z-0 pt-40 pb-32 overflow-y">
+        <div class="container mx-auto">
+            <div class="flex relative flex-col md:flex-row items-center">
                 <div class=" w-full md:w-1/2 order-2 md:order-1">
-                    <h1 class="">
-                        Defiant, Resolute, Determined, Independent:
-                        <span></span>
+                    <h1 class="text-base-100 text-3xl md:text-4xl lg:text-4xl xl:text-6xl xl:leading-[75px] mb-8">
+                        <span class="font-bold">
+                            Defiant, Resolute, Determined, Independent:
+                        </span>
+                        <span class="font-medium "> The Viacon Spirit</span>
                     </h1>
+                    <p class="font-medium text-base-100 pb-8 ">
+                        A pure play internet company founded in Kolkata that is revolutionizing the digital landscape
+                        through advanced Digital SaaS Solutions and Services.
+                    </p>
+                    <a href="#" class="btn btn-link c-primary-btn ">
+                        Join Our Team</a>
+                </div>
+
+                <div class="absolute top-[15%] left-[42%] inline-block w-fit">
+                    <img src="/resource/images/home/Header-Vector.svg" alt="">
 
                 </div>
-                <div class=" w-full md:w-1/2 order-1 md:order-2">
-                    
+
+                <div class="w-full md:w-1/2 order-1 md:order-2 ">
+                    <figure class="px-10 py-10">
+                        <img src="/resource/images/home/header-image.jpg" alt="Shoes" class="rounded-xl w-full" />
+                    </figure>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="barnd-slider bg-primary py-30 ">
-        <div class="container mx-auto ">
-    
+
+    <section class="barnd-slider ">
+        <div class="conatiner">
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="who-we-are-sec py-32">
+        <div class="container mx-auto">
+            <div class="flex flex-col">
+                <h2 class="relative sec-taitle text-4xl self-center text-center justify-center text-primary">
+                    Who We Are
+                </h2>
+                <h3 class="">PROFITABLE, AGILE, AND BUILDING WORLD CLASS TECH & DIGITAL PLATFORMS</h3>
+                <P class="">
+                    Viacon Marketing and Technologies started as a Digital Marketing Agency that offer services to
+                    national and international clients. However, very soon, we realized that automation and technology
+                    could be leveraged to create global world-class products right here in India. We started with Red
+                    Hat Media, our digital publishing wing, and extended it to become a family or more than 100+ blogs
+                    in various industry niches. We followed it up by automating SEO through a one-of-a-kind SaaS
+                    platform- BloggerOutreach. Our constant innovating spirit led us to identify loopholes in the
+                    digital ecosystem. We developed Blog Management, a platform that would bring help monetize thousands
+                    of websites. Currently, we are working on two new digital products, Smart Coders and Legal Marketing
+                    Agency.
+                </P>
+            </div>
+
         </div>
     </section>
+
+    <section class="timeline-sec py-32">
+        <div class="container">
+            <div class="flex ">
+                <h3>The Timeline To Success</h3>
+
+                <!-- card grid -->
+                <p>
+                    Right from the first day that the business started, the operations were run in a manner that we were
+                    profitable from the get-go. Our financially conservative approach meant that we never had any
+                    financial obligations in the form of debts, or outstanding loans. We were not only able to survive
+                    the pandemic, but grow our business by taking advantage of emerging opportunities. Right now, we are
+                    75-strong, and are looking to hit the 100 mark by the end of the financial year 2022-2023.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="missin-and-vision-sec py-32">
+        <div class="container">
+            <div class="flex ">
+                <h3 class="">Mission and Vision</h3>
+                <p> </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-dna-sec py-32">
+        <div class=" container mx-auto">
+            <div class="flex ">
+                <h3 class="">Our DNA</h3>
+                <p> </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="our-services py-32">
+        <div class="container mx-auto">
+            <div class="flex flex-col ">
+                <h2 class="tai">Our Services</h2>
+
+            </div>
+
+
+        </div>
+    </section>
+    
+    <section class="working-culture py-32">
+        <div class="container mx-auto">
+            <div class="flex flex-col ">
+                <h2 class="tai">Have We Been Successful 
+                    In Building A Great Working Culture?</h2>
+                    <p>Let’s hear it from the professionals that helped build us..</p>
+
+            </div>
+
+
+        </div>
+    </section>
+
 
 
 
