@@ -36,11 +36,16 @@ module.exports = {
         90: "90%",
         95: "95%",
       },
+      backgroundImage: {
+        'hero-pattern': "url('/resource/img/home-banner.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
     },
   },
   container: {
     padding: {
       DEFAULT: "1rem",
+      xs: "2rem",
       sm: "2rem",
       lg: "4rem",
       xl: "5rem",
@@ -73,3 +78,9 @@ module.exports = {
 
   plugins: [require("daisyui")],
 };
+
+
+
+
+
+

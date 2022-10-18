@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.home-page-banner{
+    @apply bg-[url('/resource/images/home/home-banner.svg')] bg-cover bg-no-repeat
+}
+
+.c-primary-btn{
+    @apply bg-slate-100 text-primary rounded-l-3xl px-6 rounded-br-3xl no-underline hover:bg-base-100 hover:no-underline rounded-tr-none capitalize	text-[17px] font-medium
+}
+
+
+
