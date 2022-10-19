@@ -38,9 +38,6 @@ body {
 }
 
 
-
-
-
 /* dsc font page all sec */
 
 .home-page-banner {
@@ -63,6 +60,10 @@ body {
 .our-services {
     @apply bg-[url('/resource/images/home/all-are-work.jpg')] bg-cover bg-no-repeat relative;
 
+}
+
+.lets-collaborate-sec{
+    @apply relative 
 }
 
 
