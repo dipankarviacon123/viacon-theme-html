@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,css,js}"],
   theme: {
     extend: {
       zIndex: {
@@ -40,6 +40,9 @@ module.exports = {
         'hero-pattern': "url('/resource/img/home-banner.svg')",
         'footer-texture': "url('/img/footer-texture.png')",
       },
+      // fontFamily: {
+      //   libre: ['"Manrope"', ...defaultTheme.fontFamily.sans-serif]
+      // }
     },
   },
   container: {
@@ -75,7 +78,6 @@ module.exports = {
       },
     ],
   },
-
   plugins: [require("daisyui")],
 };
 
