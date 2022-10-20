@@ -37,6 +37,11 @@ body {
     @apply bg-base-100 hover:bg-primary w-full rounded-[2rem] card px-8 py-16 flex flex-col overflow-hidden;
 }
 
+.footer-header-underline {
+    @apply after:absolute after:w-16 after:bottom-0 after:left-0 after:border-b-2 after:border-primary 
+}
+
+
 
 /* dsc font page all sec */
 
