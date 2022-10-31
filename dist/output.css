@@ -2111,6 +2111,10 @@ html {
   gap: 2.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
@@ -2125,14 +2129,6 @@ html {
 
 .gap-7 {
   gap: 1.75rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-y-6 {
@@ -2448,6 +2444,14 @@ html {
   line-height: 2.5rem;
 }
 
+.text-\[9\.7px\] {
+  font-size: 9.7px;
+}
+
+.text-\[8px\] {
+  font-size: 8px;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -2483,20 +2487,12 @@ html {
   line-height: 1.5rem;
 }
 
-.text-\[9\.7px\] {
-  font-size: 9.7px;
-}
-
-.text-\[8px\] {
-  font-size: 8px;
+.font-medium {
+  font-weight: 500;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .font-normal {
