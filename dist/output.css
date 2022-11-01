@@ -1852,6 +1852,10 @@ html {
   left: 42%;
 }
 
+.top-\[50\%\] {
+  top: 50%;
+}
+
 .top-\[1rem\] {
   top: 1rem;
 }
@@ -1874,10 +1878,6 @@ html {
 
 .right-\[-8rem\] {
   right: -8rem;
-}
-
-.top-\[50\%\] {
-  top: 50%;
 }
 
 .z-10 {
@@ -2067,6 +2067,10 @@ html {
   width: 350px;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .max-w-\[320px\] {
   max-width: 320px;
 }
@@ -2077,6 +2081,11 @@ html {
 
 .translate-y-\[50\%\] {
   --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[-50\%\] {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2379,6 +2388,11 @@ html {
   padding-bottom: 8rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -2402,11 +2416,6 @@ html {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .pb-2 {
@@ -2523,6 +2532,10 @@ html {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -2979,6 +2992,21 @@ body {
   left: 0px;
 }
 
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:left-96::after {
+  content: var(--tw-content);
+  left: 24rem;
+}
+
+.after\:z-10::after {
+  content: var(--tw-content);
+  z-index: 10;
+}
+
 .after\:w-16::after {
   content: var(--tw-content);
   width: 4rem;
@@ -2993,6 +3021,17 @@ body {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+
+.after\:text-primary::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
+}
+
+.after\:content-\[\'2018\'\]::after {
+  --tw-content: '2018';
+  content: var(--tw-content);
 }
 
 .hover\:bg-primary:hover {
