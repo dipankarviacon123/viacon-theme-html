@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+    <script src="leader-line.min.js"></script>
+
 </head>
 
 <body class="relative">
@@ -168,7 +171,7 @@
         </div>
     </section>
 
-    <section class="who-we-are-sec z-0  py-32 ">
+    <section class="who-we-are-sec hidden z-0  py-32 ">
         <div class="absolute bg-[rgba(0,0,0,0.80)] w-full h-full top-0 left-0 z-10 "></div>
         <div class="container mx-auto">
             <div class="flex relative flex-col justify-center z-20">
@@ -201,6 +204,80 @@
                     <span class=" font-bold">Timeline To Success</span>
                 </h2>
                 <!-- card grid -->
+
+                <div class="card-wrapper flex ">
+
+                    <div id="element-1" class="card w-96">
+                        <div class="card-body px-0">
+                            <div class="flex relative justify-center order-1">
+                                <img class="w-60 z-0 " src="/resource/images/home/cercle.svg" alt="">
+                                    <h2 class="absolute top-[50%] translate-y-[50%] text-2xl ">
+                                        2022     
+                                    </h2>                               
+                            </div>
+                            <div class="card-content order-2">
+                                <p class="text-center text-lg">
+                                    Founded in 2018 by Mashum Mollah. Started Guest Posting Services Business with 5
+                                    Blogs. Two employees and an office in Nadia, a small district in West Bengal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="element-2" class="card w-96">
+                        <div class="card-body px-0">
+                            <div class="flex justify-center order-2">
+                                <img class="w-60" src="/resource/images/home/cercle.svg" alt="">
+                            </div>
+                            <div class="card-content order-1">
+                                <p class="text-center text-lg">
+                                    Founded in 2018 by Mashum Mollah. Started Guest Posting Services Business with 5
+                                    Blogs. Two employees and an office in Nadia, a small district in West Bengal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 ">
+                        <div class="card-body px-0">
+                            <div class="flex justify-center order-1">
+                                <img class="w-60 " src="/resource/images/home/cercle.svg" alt="">
+                            </div>
+                            <div class="card-content order-2">
+                                <p class="text-center text-lg">
+                                    Founded in 2018 by Mashum Mollah. Started Guest Posting Services Business with 5
+                                    Blogs. Two employees and an office in Nadia, a small district in West Bengal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 ">
+                        <div class="card-body px-0">
+                            <div class="flex justify-center order-2">
+                                <img class="w-60" src="/resource/images/home/cercle.svg" alt="">
+                            </div>
+                            <div class="card-content order-1">
+                                <p class="text-center text-lg">
+                                    Founded in 2018 by Mashum Mollah. Started Guest Posting Services Business with 5
+                                    Blogs. Two employees and an office in Nadia, a small district in West Bengal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 ">
+                        <div class="card-body px-0">
+                            <div class="flex justify-center order-1">
+                                <img class="w-60" src="/resource/images/home/cercle.svg" alt="">
+                            </div>
+                            <div class="card-content order-2">
+                                <p class="text-center text-lg">
+                                    Founded in 2018 by Mashum Mollah. Started Guest Posting Services Business with 5
+                                    Blogs. Two employees and an office in Nadia, a small district in West Bengal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
                 <p class="text-center self-center w-fit xl:w-[80rem]">
                     Right from the first day that the business started, the operations were run in a manner that we were
                     profitable from the get-go. Our financially conservative approach meant that we never had any
@@ -212,7 +289,7 @@
         </div>
     </section>
 
-    <section class="missin-and-vision-sec relative py-32">
+    <section class="missin-and-vision-sec relative py-32 hidden">
         <div class="absolute bg-[rgba(0,0,0,0.72)] w-full h-full top-0 left-0 z-10"></div>
         <div class="container mx-auto">
             <div class="flex relative flex-col justify-center z-20">
@@ -793,10 +870,11 @@
             <div class="w-full md:w-1/2">
                 <div class="collaborate-sub relative bg-primary w-full h-full py-12 pl-6 pr-16 overflow-x-hidden">
                     <div class="absolute top-[1rem] right-[-5rem] hidden md:flex">
-                        <img alt="element"  src="/resource/images/home/footer-icon/gredint-cercle.svg" class="w-[416px] opacity-10" />
-                      </div>
+                        <img alt="element" src="/resource/images/home/footer-icon/gredint-cercle.svg"
+                            class="w-[416px] opacity-10" />
+                    </div>
                     <h2 class="sec-title self-center text-center text-base-100 font-bold">
-                        Let’s Collaborate 
+                        Let’s Collaborate
                     </h2>
                     <form action="" class="w-full pt-12">
                         <div class="flex gap-6 pb-6">
@@ -819,7 +897,7 @@
                         </div>
                         <div class="flex justify-center mt-8">
                             <a href="#" class="btn btn-link c-primary-btn ">
-                                Join Our Team 
+                                Join Our Team
                             </a>
                         </div>
                     </form>
@@ -981,6 +1059,16 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        var startElement = document.getElementById('element-1'),
+            endElement = document.getElementById('element-2');
+
+        // New leader line has red color and size 8.
+        new LeaderLine(startElement, endElement, { color: 'red', size: 8 });
+
+    </script>
 </body>
 
 </html>

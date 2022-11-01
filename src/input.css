@@ -59,7 +59,6 @@ body {
     @apply bg-[#E7E7E7];
 }
 
-
 .our-services {
     @apply bg-[url('/resource/images/home/all-are-work.jpg')] bg-cover bg-no-repeat relative;
 
@@ -73,19 +72,16 @@ body {
     @apply bg-[#FBFBFB]
 }
 
-
 /* media quarry  */
 .container {
     @apply px-6 md:px-0;
 }
-
 
 @media only screen and (min-width: 768px) and (max-width: 820px) {
     .container {
         @apply px-12;
     }
 }
-
 
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
     .container {
