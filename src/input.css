@@ -38,7 +38,7 @@ body {
 }
 
 .footer-header-underline {
-    @apply after:absolute after:w-16 after:bottom-0 after:left-0 after:border-b-2 after:border-primary 
+    @apply after:absolute after:w-16 after:bottom-0 after:left-0 after:border-b-2 after:border-primary
 }
 
 /* dsc font page all sec */
@@ -61,7 +61,6 @@ body {
 
 .our-services {
     @apply bg-[url('/resource/images/home/all-are-work.jpg')] bg-cover bg-no-repeat relative;
-
 }
 
 .lets-collaborate-sec{
